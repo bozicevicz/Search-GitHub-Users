@@ -45,7 +45,7 @@ button {
 
 .avatar {
   border-radius: 50%;
-  border: 10px solid #636386;
+  border: 10px solid #9393b3;
   height: 160px;
   width: 160px;
 }
@@ -69,4 +69,9 @@ p {
   color: #fff;
   text-align: left;
   width: 50vw;
+}
+
+h5 {
+  display: inline;
+  color: #9393b3;
 }

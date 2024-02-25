@@ -14,7 +14,6 @@ export default function ShowUser() {
       setUser(data);
       getUserRepos(userName);
     } catch {
-      // setUser(null);
       setMsg(`No user named: ${userName} !`);
     }
   };
@@ -62,6 +61,7 @@ export default function ShowUser() {
             {repos.map((repo, index) => (
               <li className="repo" key={index}>
                 {repo.name}
+                <h5> → {repo.language}</h5>
               </li>
             ))}
           </ul>
