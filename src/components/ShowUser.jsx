@@ -59,10 +59,12 @@ export default function ShowUser() {
           </p>
           <ul>
             {repos.map((repo, index) => (
-              <li className="repo" key={index}>
-                {repo.name}
-                <h5> → {repo.language}</h5>
-              </li>
+              <a href={repo.html_url} target="_blank">
+                <li className="repo" key={index}>
+                  {repo.name}
+                  <h5> → {repo.language}</h5>
+                </li>
+              </a>
             ))}
           </ul>
 
