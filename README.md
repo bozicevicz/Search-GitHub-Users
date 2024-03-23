@@ -1,4 +1,4 @@
-# Search-Github-Users
+# Search Github Users
 
 ![Model](https://github.com/bozicevicz/Search-Github-Users/blob/main/search-github-users.png)
 
