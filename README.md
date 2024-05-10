@@ -1,5 +1,7 @@
 # Search Github Users
 
+Link to deployed:
+
 ![Model](https://github.com/bozicevicz/Search-Github-Users/blob/main/search-github-users.png)
 
 # Getting Started with Create React App
