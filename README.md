@@ -1,6 +1,6 @@
 # Search Github Users
 
-Link to deployed:
+Link to deployed: https://bozicevicz-search-github-users.netlify.app/
 
 ![Model](https://github.com/bozicevicz/Search-Github-Users/blob/main/search-github-users.png)
 
