@@ -59,7 +59,7 @@ export default function ShowUser() {
           </p>
           <ul>
             {repos.map((repo, index) => (
-              <a href={repo.html_url} target="_blank">
+              <a href={repo.html_url} target="_blank" rel="noreferrer">
                 <li className="repo" key={index}>
                   {repo.name}
                   <h5> → {repo.language}</h5>
